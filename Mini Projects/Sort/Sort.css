@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(118, 217, 237);
+}
+
+.main{
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 10px green;
+    border-radius: 20px;
+    background-color: rgb(237, 203, 130);
+}
+
+h1{
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow:0 0 10px red , 0 0 20px gold , 0 0 30px red;
+}
+
+label{
+    font-size: 35px;
+    padding: 20px;
+}
+
+input{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border:none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+input:active{
+    border: none;
+}
+
+button{
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 370px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+button:active{
+    background-color: yellow;
+    color: black;
+}
